@@ -5,6 +5,7 @@ from telegram.ext import Updater, CommandHandler
 import telegram
 import threading
 import os
+import random
 
 group = [-455705027,-1001244490540,-1001428889789]
 TOKEN = os.environ.get("TOKEN")
