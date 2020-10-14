@@ -10,7 +10,7 @@ import random
 group = [-455705027,-1001244490540,-1001428889789]
 TOKEN = os.environ.get("TOKEN")
 
-datelst = ['17/5', '12/2', '17/10', '15/9', '28/2', '21/9', '28/3', '20/5', '15/5', '6/10', '12/7', '11/10', '29/3', '24/10', '6/11', '21/5', '24/4', '28/9', '28/1', '28/5', 
+datelst = ['17/5', '12/2', '17/10', '15/9', '28/2', '21/9', '28/3', '20/5', '15/5', '6/10', '12/7', '14/10', '29/3', '24/10', '6/11', '21/5', '24/4', '28/9', '28/1', '28/5', 
 
 '9/10', '6/7', '5/7', '22/5', '10/6', '7/10', '13/10', '26/6', '29/10', '5/11', '18/11', '25/8', '29/11', '27/2']
 
@@ -25,7 +25,7 @@ event = {"17/5" : ["Agender Pride Day","19 May","Day to promote awareness of age
 "15/5" : ["International Day Against Homophobia, Transphobia and Biphobia","17 May","The main purpose of the 17 May mobilizations is to raise awareness of violence, discrimination, abuse, and repression of LGBT communities worldwide."],
 "6/10" : ["International Lesbian Day","8 October","Annual day which celebrates lesbian culture, mainly celebrated in New Zealand and Australia"],
 "12/7" : ["International Non-Binary People's Day","14 July","Date chosen due to being between International Men's Day and International Women's Day"],
-"11/10" : ["International Pronouns Day","Third Wednesday in October","An annual event that seeks to make sharing, respecting and educating about personal pronouns commonplace"],
+"14/10" : ["International Pronouns Day","Third Wednesday in October","An annual event that seeks to make sharing, respecting and educating about personal pronouns commonplace"],
 "28/3" : ["International Transgender Day of Visibility","31 March","Celebrated to bring awareness to transgender people and their identities as well as recognize those who helped fight for rights for transgender people"],
 "24/10" : ["Intersex Awareness Day","26 October","Celebrated in October to commemorate the first intersex protest, which took place in Boston, MA"],
 "6/11" : ["Intersex Day of Remembrance (Intersex Solidarity Day)","8 November","Birthday of Herculine Barbin"],
