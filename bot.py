@@ -48,7 +48,7 @@ event = {"17/5" : ["Agender Pride Day","19 May","Day to promote awareness of age
 "25/8" : ["Wear it Purple Day","final Friday of August","Awareness day especially for young people, based in Australia"],
 "29/11" : ["World AIDS Day","1 December","Recognized in 1988 by the United Nations"],
 "27/2" : ["Zero Discrimination Day","1 March","""#ZeroDiscrimination Day is observed to bring awareness that you can't get sick from interacting with people who have AIDS, that everybody should have "access health care safely and live life fully with dignity", as per Michel Sidibé, UNAIDS Executive Director". The day is also used to bring attention to acceptance of non-straight fellow humans and not marginalise, discriminate or act cruelly against them, yet to instruct oneself, e.g. the gender continuum."""]
-,"12/11" : ["No event", "This is a test message"]}      
+,"12/11" : ["World AIDS Day","1 December","Recognized in 1988 by the United Nations"]}      
 
 mybot = telegram.Bot(TOKEN)
 PORT = int(os.environ.get('PORT', 5000))
@@ -61,6 +61,7 @@ def check_event():
         date = str(dateinfo.date())
         DD,MM = int(date.split("-")[2]),int(date.split("-")[1])
         today = f"{DD}/{MM}"
+        print(today,lastdate,dateinfo)
         #if date == today:
         if today in datelst and today != lastdate:
             datalst = event[today]
