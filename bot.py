@@ -12,7 +12,7 @@ TOKEN = os.environ.get("TOKEN")
 
 datelst = ['17/5', '12/2', '17/10', '15/9', '28/2', '21/9', '28/3', '20/5', '15/5', '6/10', '12/7', '14/10', '29/3', '24/10', '6/11', '21/5', '24/4', '28/9', '28/1', '28/5', 
 
-'9/10', '6/7', '5/7', '22/5', '10/6', '7/10', '13/10', '26/6', '29/10', '5/11', '18/11', '25/8', '29/11', '27/2']
+'9/10', '6/7', '5/7', '22/5', '10/6', '7/10', '13/10', '26/6', '29/10', '5/11', '18/11', '25/8', '29/11', '27/2',"12/11"]
 
 event = {"17/5" : ["Agender Pride Day","19 May","Day to promote awareness of agender individuals"],
 "12/2" : ["Aromantic Spectrum Awareness Week","The first full week after 14 February","Week to promote information and awareness about aromantic spectrum identities and the issues they face"],
