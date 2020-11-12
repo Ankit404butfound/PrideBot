@@ -61,7 +61,6 @@ def check_event():
         date = str(dateinfo.date())
         DD,MM = int(date.split("-")[2]),int(date.split("-")[1])
         today = f"{DD}/{MM}"
-        print(today,lastdate,dateinfo)
         #if date == today:
         if today in datelst and today != lastdate:
             datalst = event[today]
