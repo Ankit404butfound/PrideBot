@@ -117,8 +117,10 @@ def near_event(bot,update):
     eventstr = ""
     for date in futureevent:
         eventstr = f"{eventstr}*{event[date][1]}* - {event[date][0]}\n\n"
-    update.message.reply_text("*Here's a list of event/s for next 30 days*\n\n"+eventstr,parse_mode="Markdown")
-
+    if eventstr:
+        update.message.reply_text("*Here's a list of event/s for next 30 days*\n\n"+eventstr,parse_mode="Markdown")
+    else:
+        update.message.reply_text("No event for next 30 days.")
 updater = Updater(TOKEN)
 dp = updater.dispatcher
 dp.add_handler(CommandHandler("near_event", near_event))
